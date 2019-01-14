@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import containerImg from './container_img.png'
 import './App.css';
 
 class App extends Component {
@@ -10,9 +11,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Airlift React Docker and Jenkins Sample</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        
+        <h1 className="Main-title">All About Containers and DevOps</h1>
+        <p></p>
+        <img src={containerImg}   alt="container_logo" />
       </div>
     );
   }
