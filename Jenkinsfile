@@ -94,7 +94,7 @@ pipeline {
   }
   post {
     always {
-      sh 'echo "Great Deployment of the " ${params.DOCKER_STACK_NAME}'
+      sh 'echo "Great Deployment of the ${params.DOCKER_STACK_NAME}" '
     }
   }
 }
