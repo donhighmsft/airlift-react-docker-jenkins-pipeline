@@ -2,6 +2,6 @@ version: '3.4'
 
 services:
   react_nginx:
-    image: donghigh/devops-airlift-pipeline-complex:build-lastest
+    image: donghigh/devops-airlift-pipeline-complex:build-latest
     ports:
       - 81:80
